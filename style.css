@@ -24,3 +24,11 @@ header {
     max-width: 30%;
     height: auto;
 }
+a {
+    color: #964B00; /* Normal link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: blue; /* Color when hovered over */
+}
