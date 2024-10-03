@@ -1,0 +1,34 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 0; 
+    background-color: ##FFFFFF; 
+}
+
+header {
+    background: #35424a; 
+    color: #ffffff; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.image-container {
+    display: flex; 
+    gap: 10px; 
+    margin: 20px;
+}
+
+.image {
+    max-width: 30%;
+    height: auto;
+}
+a {
+    color: #964B00; /* Normal link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: blue; /* Color when hovered over */
+}
