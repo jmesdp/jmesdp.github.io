@@ -1,0 +1,69 @@
+.Imperial_City {
+/* Sets the text color for each city location as they appear in the text */
+    color: #4B0082;
+}
+
+.Chorrol {
+    color: #2E8B57; 
+}
+
+.Bruma {
+    color: #4682B4;
+}
+
+.Kvatch {
+    color: #B22222; 
+}
+
+.legend {
+/* Sets the style for the legend container */
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.legend h2 {
+    margin-top: 0;
+}
+
+.legend-item {
+/* Sets styles for individual legend items */
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.legend-box {
+/* Sets styles for the colored boxes next to legend items */
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.Imperial_City .legend-box {
+/* Sets the color for each cities legend box */
+    background-color: #4B0082;
+}
+
+.Chorrol .legend-box {
+    background-color: #2E8B57;
+}
+
+.Bruma .legend-box {
+    background-color: #4682B4;
+}
+
+.Kvatch .legend-box {
+    background-color: #B22222;
+}
+
+body {
+    font-family: 'MedievalSharp', cursive;
+    /* Sets the font to the medieval-style font linked in the html */
+    font-size: 16px; 
+    color: #333; 
+    
+}
+
+.epithet {
+    text-decoration: underline;
+}
